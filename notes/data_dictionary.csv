@@ -1,0 +1,18 @@
+field,storage_type,meaning,unit,documented_categories,special_semantics,role,source
+age,integer,Client age,years,,Positive integer; no arbitrary age trimming,input,data/raw/bank-names.txt; UCI dataset 222
+job,string,Type of job,category,admin.|unknown|unemployed|management|housemaid|entrepreneur|student|blue-collar|self-employed|retired|technician|services,unknown is a literal category; U applies here,input,data/raw/bank-names.txt; UCI dataset 222
+marital,string,Marital status,category,married|divorced|single,divorced includes divorced or widowed in the source documentation,input,data/raw/bank-names.txt; UCI dataset 222
+education,string,Education category,category,unknown|secondary|primary|tertiary,Legacy primary/secondary/tertiary/unknown; U applies here,input,data/raw/bank-names.txt; UCI dataset 222
+default,string,Has credit in default?,yes/no,yes|no,Do not infer default amount or date,input,data/raw/bank-names.txt; UCI dataset 222
+balance,integer,Average yearly balance,EUR,,Negative and extreme values are not automatically errors,input,data/raw/bank-names.txt; UCI dataset 222
+housing,string,Has housing loan?,yes/no,yes|no,Retain original categories,input,data/raw/bank-names.txt; UCI dataset 222
+loan,string,Has personal loan?,yes/no,yes|no,Retain original categories,input,data/raw/bank-names.txt; UCI dataset 222
+contact,string,Last contact communication type,category,unknown|telephone|cellular,Current campaign contact process; excluded,excluded,data/raw/bank-names.txt; UCI dataset 222
+day,integer,Day of month of last contact,1-31,,Not day_of_week; incomplete calendar information,excluded,data/raw/bank-names.txt; UCI dataset 222
+month,string,Month of last contact,category,jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec,No year/complete timestamp; excluded,excluded,data/raw/bank-names.txt; UCI dataset 222
+duration,integer,Last contact duration,seconds,,Known after the call; unavailable to contact-before selection,excluded,data/raw/bank-names.txt; UCI dataset 222
+campaign,integer,Number of contacts in the current campaign for this client,count,,Includes last contact; excluded by project timing policy,excluded,data/raw/bank-names.txt; UCI dataset 222
+pdays,integer,Days since last contact in a previous campaign,days or -1 state,,-1 means not previously contacted; 0 is distinct; do not use 999 sentinel,input,data/raw/bank-names.txt; UCI dataset 222
+previous,integer,Number of contacts before the current campaign for this client,count,,Nonnegative; high counts trigger investigation rather than deletion,input,data/raw/bank-names.txt; UCI dataset 222
+poutcome,string,Outcome of previous marketing campaign,category,unknown|other|failure|success,unknown is not always no prior contact; U must not change this field,input,data/raw/bank-names.txt; UCI dataset 222
+y,string,Has the client subscribed a term deposit?,yes/no,yes|no,Target only: yes=1 no=0,target,data/raw/bank-names.txt; UCI dataset 222

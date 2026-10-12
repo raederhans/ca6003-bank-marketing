@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "started_utc": "2026-10-12T09:44:21.609865+00:00",
+  "finished_utc": "2026-10-12T09:44:34.948014+00:00",
+  "fresh_official_download": true,
+  "preloaded_data": false,
+  "offline_second_run_unchanged": true,
+  "compared_artifacts": {
+    "data/source/bank-marketing.zip": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+    "data/source/bank.zip": "99d7e8eb12401ed278b793984423915411ea8df099e1795f9fefe254f513fe5e",
+    "data/raw/bank-full.csv": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d",
+    "data/raw/bank-names.txt": "3899a77082573ed676a7dfce3765a5307915c7f11b1fe2f6f55fd3c5467c12f7",
+    "data/splits/split_manifest.csv": "56d283f977937adf4f71b50102dbf3f9c15f923c68a3a7026da19680b1f1f1e1",
+    "data/splits/split_indices.json": "01909fad4322dbda27b72151e79c734dd6346e8d6a10bf1f89d01bd9c5f34aa2",
+    "outputs/train_profile.csv": "dd10d48876597566e685d710c2038400e8bc29d70f9bc5c0963f15f202e69ef8",
+    "outputs/quality_audit.csv": "f07037e7a5d666886ec005f2d0a9e9c2a588d6d51a8d7cfbb26f2abb8bc137e9",
+    "outputs/format_checks.csv": "a792b1664a7a8fd7eedb87c28ed8f9095b67db85f2224a71073c39949e1455fa",
+    "outputs/split_summary.csv": "fe0fb7e798d3ce9835617913e6de753f320a316c53c7a4b6f38b32f4fdc7bb46",
+    "outputs/train_history_consistency.csv": "ebc96d04634def9579e939cc07958ede4aa5b4cfd7fdd61753a1eb8096b21a5d",
+    "outputs/audit_summary.json": "98ac0bab17e4b4dff662ab1b0067b6381a886ed8909a06b62ce25bc98e4617a8",
+    "notes/data_dictionary.csv": "c66e5c54d22b0a59cdafd8ba427fb6f68bf855e111501579c7499ef268af8f76",
+    "notes/feature_policy.csv": "694ab3596412ab657f24402f7668bc2eadc46ba73979ed532fb7ddfa5822487a"
+  },
+  "source_project_unchanged": true,
+  "temporary_copy": "Kept under the OS temporary directory for diagnostics; no private path recorded"
+}

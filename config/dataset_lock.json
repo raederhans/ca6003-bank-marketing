@@ -1,0 +1,23 @@
+{
+  "dataset": "UCI Bank Marketing / legacy bank-full.csv",
+  "uci_id": 222,
+  "dataset_page": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "download_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_checked_utc_date": "2026-10-12",
+  "artifacts": {
+    "data/source/bank-marketing.zip": {"bytes": 1023843, "sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4"},
+    "data/source/bank.zip": {"bytes": 579043, "sha256": "99d7e8eb12401ed278b793984423915411ea8df099e1795f9fefe254f513fe5e"},
+    "data/raw/bank-full.csv": {"bytes": 4610348, "sha256": "d1513ec63b385506f7cfce9f2c5caa9fe99e7ba4e8c3fa264b3aaf0f849ed32d"},
+    "data/raw/bank-names.txt": {"sha256": "3899a77082573ed676a7dfce3765a5307915c7f11b1fe2f6f55fd3c5467c12f7"}
+  },
+  "shape": [45211, 17],
+  "separator": ";",
+  "keep_default_na": false,
+  "columns": ["age", "job", "marital", "education", "default", "balance", "housing", "loan", "contact", "day", "month", "duration", "campaign", "pdays", "previous", "poutcome", "y"],
+  "allowed_features": ["age", "job", "marital", "education", "default", "balance", "housing", "loan", "pdays", "previous", "poutcome"],
+  "excluded_features": ["duration", "campaign", "contact", "day", "month"],
+  "target_mapping": {"no": 0, "yes": 1},
+  "split": {"random_state": 42, "test_size": 0.2, "validation_fraction_of_dev": 0.25},
+  "integrity_reference": {"target_counts": {"no": 39922, "yes": 5289}, "pdays_minus_one": 36954, "pdays_999": 0}
+}

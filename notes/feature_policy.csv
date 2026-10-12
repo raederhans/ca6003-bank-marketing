@@ -1,0 +1,19 @@
+field,role,allowed_in_X,prediction_time,reason,policy_basis,owner,reviewer
+age,input,True,Assumed available before current campaign contact; exact snapshots unverified,Positive integer; no arbitrary age trimming,team manual pre-contact research design,A,pending
+job,input,True,Assumed available before current campaign contact; exact snapshots unverified,unknown is a literal category; U applies here,team manual pre-contact research design,A,pending
+marital,input,True,Assumed available before current campaign contact; exact snapshots unverified,divorced includes divorced or widowed in the source documentation,team manual pre-contact research design,A,pending
+education,input,True,Assumed available before current campaign contact; exact snapshots unverified,Legacy primary/secondary/tertiary/unknown; U applies here,team manual pre-contact research design,A,pending
+default,input,True,Assumed available before current campaign contact; exact snapshots unverified,Do not infer default amount or date,team manual pre-contact research design,A,pending
+balance,input,True,Assumed available before current campaign contact; exact snapshots unverified,Negative and extreme values are not automatically errors,team manual pre-contact research design,A,pending
+housing,input,True,Assumed available before current campaign contact; exact snapshots unverified,Retain original categories,team manual pre-contact research design,A,pending
+loan,input,True,Assumed available before current campaign contact; exact snapshots unverified,Retain original categories,team manual pre-contact research design,A,pending
+contact,excluded,False,Current/last-contact or campaign process; conservatively unavailable before contact,Current campaign contact process; excluded,team manual pre-contact research design,A,pending
+day,excluded,False,Current/last-contact or campaign process; conservatively unavailable before contact,Not day_of_week; incomplete calendar information,team manual pre-contact research design,A,pending
+month,excluded,False,Current/last-contact or campaign process; conservatively unavailable before contact,No year/complete timestamp; excluded,team manual pre-contact research design,A,pending
+duration,excluded,False,Current/last-contact or campaign process; conservatively unavailable before contact,Known after the call; unavailable to contact-before selection,team manual pre-contact research design,A,pending
+campaign,excluded,False,Current/last-contact or campaign process; conservatively unavailable before contact,Includes last contact; excluded by project timing policy,team manual pre-contact research design,A,pending
+pdays,input,True,Assumed available before current campaign contact; exact snapshots unverified,-1 means not previously contacted; 0 is distinct; do not use 999 sentinel,team manual pre-contact research design,A,pending
+previous,input,True,Assumed available before current campaign contact; exact snapshots unverified,Nonnegative; high counts trigger investigation rather than deletion,team manual pre-contact research design,A,pending
+poutcome,input,True,Assumed available before current campaign contact; exact snapshots unverified,unknown is not always no prior contact; U must not change this field,team manual pre-contact research design,A,pending
+y,target,False,Observed response after current campaign; target only,Target only: yes=1 no=0,team manual pre-contact research design,A,pending
+row_id,tracking_only,False,Assigned from zero-based original row position,Not a customer ID or feature; preserve original order,fixed split tracking contract,A,pending

@@ -1,0 +1,4 @@
+partition,n_rows,n_no,n_yes,positive_rate,purpose
+train,27126,23953.0,3173.0,0.11697264616972647,training profile
+val,9042,,,,structure/coverage only; label statistics withheld
+test,9043,,,,structure/coverage only; label statistics withheld

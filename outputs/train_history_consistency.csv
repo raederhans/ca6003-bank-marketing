@@ -1,0 +1,6 @@
+partition,pdays_state,previous_state,poutcome,n,denominator
+train,contacted_ge0,positive,failure,2876,27126
+train,contacted_ge0,positive,other,1117,27126
+train,contacted_ge0,positive,success,893,27126
+train,contacted_ge0,positive,unknown,5,27126
+train,never_-1,zero,unknown,22235,27126

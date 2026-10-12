@@ -1,0 +1,29 @@
+{
+  "raw_shape": [
+    45211,
+    17
+  ],
+  "split_sizes": {
+    "train": 27126,
+    "val": 9042,
+    "test": 9043
+  },
+  "open_profile_partition": "train",
+  "training_rows": 27126,
+  "holdout_policy": "predeclared schema, category membership, numeric domain and row coverage checks only; no holdout label statistics",
+  "format_violations": 0,
+  "audit_stop_affected": 0,
+  "training_exact_duplicate_group_members": 0,
+  "training_duplicate_excess_rows": 0,
+  "training_pdays_minus_one": 22235,
+  "training_pdays_zero": 0,
+  "training_unknown_job": 179,
+  "training_unknown_education": 1100,
+  "training_negative_balance": 2280,
+  "rows_deleted": 0,
+  "imputation_fitted": false,
+  "scaler_fitted": false,
+  "models_fitted": 0,
+  "student_review": "pending",
+  "C_semantic_review": "pending"
+}

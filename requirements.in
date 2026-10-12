@@ -1,0 +1,7 @@
+# Validated with CPython 3.12; full transitive versions are in requirements.lock.txt.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.0
+nbformat
+nbclient
+ipykernel

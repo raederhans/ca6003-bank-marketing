@@ -1,0 +1,4 @@
+* text=auto eol=lf
+data/raw/* -text
+data/source/*.zip -text
+*.ipynb text eol=lf
